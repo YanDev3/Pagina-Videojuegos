@@ -1,0 +1,161 @@
+body {
+  background-color: #132f6c;
+  margin: 0;
+}
+
+header {
+  background-image: url("../Imagenes_generales/Fondo_menu.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+  background-size: 994px 100px;
+  margin: auto;
+  width: 994px;
+  height: 100px;
+  border-left: solid 3px #110675;
+  border-right: solid 3px #110675;
+  box-shadow: 0 5px 25px;
+  box-sizing: border-box;
+}
+
+header img {
+  width: 290px;
+  height: 95px;
+  margin-left: 10px;
+}
+
+nav {
+  background-color: #000000;
+  margin: auto;
+  width: 988.5px;
+  height: 35px;
+  border-top: solid 1px #110675;
+  border-left: solid 3px #110675;
+  border-right: solid 3px #110675;
+  box-shadow: 0 5px 25px;
+}
+
+.buscador_contenedor {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.buscador_contenedor input[type="text"] {
+  border: none;
+  border-radius: 5px;
+  padding: 2px;
+  transform: translate(185px, -38px);
+}
+
+.buscador_contenedor button {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transform: translate(186px, -37px);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 130px;
+}
+
+li {
+  margin-top: 7.5px;
+}
+
+ul li {
+  display: inline-block;
+  margin-left: 140px;
+}
+
+ul li a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+li a:hover {
+  color: #f7f19c;
+}
+
+.rellenito {
+  background-color: white;
+  margin: auto;
+  width: 987.5px;
+  height: 6px;
+  transform: translate(0px, -30px);
+  border-left: solid 3px #110675;
+  border-right: solid 3px #110675;
+  border-bottom: solid 3px #110675;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 5px 25px;
+}
+
+.contenedor_adicional {
+  background-color: white;
+  width: 1100px;
+  height: 500px;
+  margin: auto;
+  border: solid 3px #110675;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0 5px 25px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#encabezado_principal {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #1366bd;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.frase {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 15.7px;
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.encabezado_adicional {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  color: #1366bd;
+  margin: auto;
+  text-align: center;
+  width: 900px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  padding: 20px;
+  padding-top: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+span a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+span a:hover {
+  color: #f7f19c;
+}

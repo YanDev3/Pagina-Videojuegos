@@ -1,0 +1,107 @@
+body {
+  background-color: #132f6c;
+}
+
+.contenedor_terminos {
+  background-color: white;
+  width: 1000px;
+  height: 1400px;
+  margin: auto;
+  margin-top: 50px;
+  border: solid 3px #110675;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0 5px 25px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.encabezados_terminos {
+  color: #132f6c;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15.6px;
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.informacion_contenidos {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  line-height: 16.8px;
+  text-align: left;
+  padding-top: 5px;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: justify;
+}
+
+.email_contacto {
+  margin-left: 35px;
+}
+
+.email_contacto a {
+  text-decoration: none;
+  color: black;
+}
+
+.email_contacto a:hover {
+  color: #132f6c;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  padding: 20px;
+  padding-top: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+span a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+span a:hover {
+  color: #f7f19c;
+}
+
+@media screen and (max-width: 768px) {
+  .contenedor_terminos {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .encabezados_terminos {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+  }
+
+  .informacion_contenidos {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .email_contacto {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+  }
+
+  footer {
+    position: static;
+    padding: 20px 10px;
+  }
+}

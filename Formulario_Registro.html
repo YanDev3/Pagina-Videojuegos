@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Registrate en nuestra pagina MacroJuegos.com, donde puedes probar juegos de diferentes categorias e interactuar de manera dinamica en los diferentes apartados disponibles.">
+    <meta name="keywords" content="Registrate, Datos, Dinamico, Juegos, Funciones, Utilidades, Diversion, Entretenimiento, Desarrollo, Competencia, Mision, Vision, Historia, Valores">
+    <meta name="authors" content="Yaniel De La Rosa (Developer)">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="../Imagenes_generales/Favicono.png" type="image/x-png">
+    <link rel="stylesheet" href="../Archivos_CSS/Estilo_Formulario.css">
+    <title>Entra o crea tu cuenta en macrojuegos.com</title>
+</head>
+<body>
+    <div class="contenedor">
+        <h1 id="encabezado_principal">ENTRA O CREA UNA CUENTA EN MACROJUEGOS.COM</h1>
+        <div class="contenedor_formulario">
+            <form action="../Archivos_PHP/Validacion_Formulario.php" method="post">
+                <div class="Mario_y_Sonic">
+                  <img src="../Imagenes_Formulario/Mario_Pose.png">
+                  <img src="../Imagenes_Formulario/Sonic_Pose.png">
+                </div>
+                <div class="usuario">
+                    <input type="text" name="nombre" placeholder="Escribe un nombre de usuario" required oninvalid="this.setCustomValidity('Es obligatorio que introduzca su nombre.')" oninput="setCustomValidity('')">
+                </div>
+                <div class="usuario">
+                    <input type="email" name="correo" placeholder="Introduce tu correo electronico" oninvalid="this.setCustomValidity('Es obligatorio que introduzca su correo electronico (y asegurese de que este bien escrito).')" oninput="setCustomValidity('')">
+                </div>
+                <div class="usuario">
+                    <input type="password" name="contraseña" placeholder="Contraseña" required oninvalid="this.setCustomValidity('Es obligatorio que introduzca su contraseña.')" oninput="setCustomValidity('')">
+                </div>
+                <div class="iusuario">
+                   <input type="tel" name="telefono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Ingresa tu numero telefonico">
+                </div>
+                   <div class="usuario">
+                   <input type="text" name="direccion" placeholder="Proporciona tu direccion">
+                </div>
+                <div class="usuario">
+                    <input type="number" name="edad" placeholder="Establece tu edad" required min="1" max="99" oninvalid="this.setCustomValidity('Debes rellenar este campo obligatorio (sea honesto por favor).')" oninput="setCustomValidity('')">
+                </div>
+                <div class="boton_enviar">
+                    <input class="boton-enviar" type="submit" value="Crear Cuenta">
+                </div>
+
+                <div class="reestablecer">
+                    <input class="reestablecer" type="reset" name="reestablecer" value="Limpiar todos los campos">
+                </div>
+
+                <p class="terminos">Entrando en macrojuegos.com acepto la <a href="Politica_Privacidad.html" target="_blank">política de privacidad</a> y las <a href="Terminos_Uso.html" target="_blank">normativas de uso</a></p>
+            </form>
+
+            <hr class="separador_formulario" color="#6a8dad">
+
+            <h2 class="pregunta_clave">CON MI PROPIA CUENTA ¿QUE VOY A CONSEGUIR?</h2>
+
+            <p class="pequeño_dato">En macrojuegos.com cuidamos a nuestros usuarios, por eso queremos mejorar junto a tí, ¡participa y ayúdanos!</p>
+
+            <details class="contenedor_desplegable">
+            <summary class="pregunta_clave2">¡GENIAL! ENTONCES... ¿QUE VENTAJAS VOY A TENER?</summary>
+            <h3 class="informacion_adicional">Relacionarte con la comunidad</h3>
+            <ul>
+                <li>🟣 Tendrás tu propio avatar configurado como más te guste, dándole tu toque personal.</li>
+                <li>🟣 No te perderás nada de lo que hacen tus amigos, ni sus juegos preferidos.</li>
+                <li>🟣 Podrás dar tu opinión sobre el juego mediante los comentarios.</li>
+                <li>🟣 Conocerás mucha gente nueva como tú, a la que también le gustan los juegos.</li>
+            </ul>
+            <h3 class="informacion_adicional">Demostrar que tú eres el más competitivo</h3>
+            <ol>
+                <li>1️⃣ A medida que mejores, tu cuenta subirá puestos en el ranking de la fama, así conocerás a más gente.</li>
+                <li>2️⃣ Competitividad en estado puro por sacar las mejores puntuaciones del juego.</li>
+                <li>3️⃣ Recompensa por jugar, tu cuenta subirá de nivel y ganarás monedas virtuales para gastarlas como tú quieras por el portal.</li>
+            </ol>
+            <dl>
+                <dt class="informacion_adicional">Acceso a más herramientas y opciones</dt>
+                <dd>Votando los juegos nos ayudarás a conocer tus gustos personales, así podremos recomendarte más y mejores.</dd> <br>
+                <dd>Olvídate de recordar como se llamaba un juego, podrás consultar los juegos que ya jugaste.</dd> <br>
+                <dd>Tendrás tu propia selección de juegos favoritos, para volver a jugarlos siempre que quieras.</dd> <br>
+                <dd>Podrás conversar con los administradores de la web y darles tu opinión.</dd>
+            </dl>
+
+            <h4 class="cuestion_final">¿QUIERES SER UNO DE LOS NUESTROS?</h4>
+            </details>
+        
+            <footer>
+                <p>Copyright (c) 2024 | www.macrojuegos.com | <span><a href="Legal.html">Políticas de privacidad, condiciones de uso y cuestiones legales</a></span></p>
+            </footer>
+
+        </div>
+        
+    </div>
+</body>
+</html>

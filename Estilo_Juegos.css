@@ -1,0 +1,16 @@
+body {
+  background-color: #132f6c;
+  margin: 0;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+iframe {
+    width: 950px;
+    height: 545px;
+    transform: translateX(200px);
+}

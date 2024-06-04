@@ -1,0 +1,275 @@
+body {
+  background-color: #132f6c;
+}
+
+.contenedor {
+  background-color: white;
+  width: 994px;
+  height: 1400px;
+  margin: auto;
+  border: solid 3px #110675;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0 5px 25px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#encabezado_principal {
+  color: #1366bd;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  cursor: default;
+}
+
+.contenedor_formulario {
+  text-align: center;
+  width: 974px;
+  height: 270px;
+}
+
+.contenedor_formulario input:not(.boton-enviar, .reestablecer) {
+  width: 230px;
+  height: 25px;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  border: solid 1px;
+  line-height: 23.52px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 25px;
+  font-size: 16.8px;
+  position: relative;
+  z-index: 1;
+}
+
+.Mario_y_Sonic {
+  position: absolute;
+  top: 10%;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.Mario_y_Sonic img {
+  width: 280px;
+  height: 300px;
+}
+
+.Mario_y_Sonic img:first-child {
+  margin-left: 35px;
+  transform: translateY(-65px);
+}
+
+.Mario_y_Sonic img:last-child {
+  margin-right: -60px;
+  width: 370px;
+  transform: translateY(-65px);
+}
+
+.boton-enviar {
+  background-color: #0c3274;
+  color: white;
+  width: 152px;
+  height: 46px;
+  font-size: 16.8px;
+  margin-top: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 4px;
+  border: solid 1px black;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  position: relative;
+}
+
+.boton-enviar:hover {
+  transform: scale(1.1);
+}
+
+.reestablecer {
+  background: none;
+  border: none;
+  margin-top: 8px;
+  font-weight: bold;
+  position: relative;
+}
+
+.reestablecer:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.terminos {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-size: 10.8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 327px;
+  margin-right: 327px;
+  line-height: 10.8px;
+}
+
+.separador_formulario {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 49px;
+  margin-right: 49px;
+}
+
+.pregunta_clave {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #9d6bbc;
+  font-size: 21.6px;
+  padding-top: 5px;
+  line-height: 21.6px;
+}
+
+.pequeño_dato {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  padding-top: 5px;
+  line-height: 12px;
+  font-weight: bold;
+}
+
+.contenedor_desplegable {
+  background-color: black;
+  color: white;
+  margin: auto;
+  width: 700px;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.pregunta_clave2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #9d6bbc;
+  font-size: 21.6px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  line-height: 21.6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.informacion_adicional {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  text-align: left;
+  color: #2e4b77;
+}
+
+ul,
+ol {
+  text-align: justify;
+}
+
+li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: justify;
+  list-style: none;
+}
+
+dt {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 25px;
+}
+
+dd {
+  text-align: justify;
+}
+
+.cuestion_final {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #0066ff;
+  font-size: 16.8px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  padding: 20px;
+  padding-top: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+span a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+span a:hover {
+  color: #f7f19c;
+}
+
+@media screen and (max-width: 768px) {
+  .contenedor {
+    width: 100%;
+    height: auto;
+    border: none;
+    border-radius: 5px;
+    box-shadow: none;
+  }
+
+  .contenedor_formulario {
+    width: 100%;
+    height: auto;
+  }
+
+  .contenedor_formulario input:not(.boton-enviar, .reestablecer) {
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .Mario_y_Sonic {
+    position: static;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Mario_y_Sonic img {
+    width: 200px;
+    height: auto;
+    margin: 10px 0;
+  }
+
+  .Mario_y_Sonic img:first-child,
+  .Mario_y_Sonic img:last-child {
+    margin: 10px 0;
+    transform: none;
+  }
+
+  .terminos {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .contenedor_desplegable {
+    width: 90%;
+  }
+
+  footer {
+    position: static;
+    padding: 20px 10px;
+  }
+}
